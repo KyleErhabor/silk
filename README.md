@@ -1,4 +1,4 @@
-# Silk  [![Current Version](https://clojars.org/com.domkm/silk/latest-version.svg)](https://clojars.org/com.domkm/silk)
+# Silk
 
 This is a fork of Silk that supports PATCH requests and uses Clojure common files instead of cljx.
 
