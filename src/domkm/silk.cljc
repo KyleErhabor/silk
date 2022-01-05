@@ -1,8 +1,7 @@
 (ns domkm.silk
   (:refer-clojure :exclude [int cat #?(:cljs uuid)])
   (:require [clojure.string :as str]
-            #?(:clj [clojure.core :as core])
-            #?(:cljs [cljs.core :as core]))
+            [#?(:clj clojure.core :cljs cljs.core) :as core])
   #?(:clj (:import [clojure.lang Keyword PersistentArrayMap PersistentHashMap PersistentVector]
                    [java.util UUID])))
 
